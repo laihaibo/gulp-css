@@ -9,12 +9,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "autoprefixer": "^8.5.0",
-    "cssnano": "^3.10.0",
-    "gulp-postcss": "^7.0.1"
-  },
   "dependencies": {
-    "gulp": "^4.0.2"
-  }
+    "autoprefixer": "^9.7.4",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 11",
+    "Android >= 4.0",
+    "iOS >= 8"
+  ]
 }
